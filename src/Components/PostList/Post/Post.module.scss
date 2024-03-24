@@ -1,0 +1,13 @@
+.post {
+  box-shadow: 1px 1px 3px rgba(3, 3, 3, 0.09), -1px -1px 3px rgba(35, 35, 35, 0.16);
+  max-width: 40%;
+  padding: .7%;
+  min-height: 100px;
+  & .title {
+    font-weight: bolder;
+  }
+
+  & .body {
+    margin-top: clamp(5px,3%,10px);
+  }
+}

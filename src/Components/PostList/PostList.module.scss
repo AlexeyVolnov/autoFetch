@@ -1,0 +1,15 @@
+.postList{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin: 30px;
+
+}
+.buttonFetchPosts{
+  padding: 10px 30px;
+  background: #000;
+  border-radius: 3px;
+  color: #e1dede;
+  cursor: pointer;
+}
